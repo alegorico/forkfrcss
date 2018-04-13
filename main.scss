@@ -39,34 +39,34 @@
  *
  */
 
-@import "settings.config";
-@import "settings.global";
+@import "settings/settings.config";
+@import "settings/settings.global";
 
-@import "tools.mixins";
+@import "tools/tools.mixins";
 
-@import "generic.normalize";
-@import "generic.reset";
-@import "generic.box-sizing";
-@import "generic.shared";
+@import "generics/generic.normalize";
+@import "generics/generic.reset";
+@import "generics/generic.box-sizing";
+@import "generics/generic.shared";
 
-@import "elements.headings";
-@import "elements.forms";
+@import "elements/elements.headings";
+@import "elements/elements.forms";
 
 $layout-gutter: 12px;
-@import "objects.layout";
-@import "objects.list-bare";
-@import "objects.list-pair";
-@import "objects.pack";
+@import "objects/objects.layout";
+@import "objects/objects.list-bare";
+@import "objects/objects.list-pair";
+@import "objects/objects.pack";
 
-@import "components.forms";
+@import "components/components.forms";
 
 $btn-custom: (
     font: inherit,
 );
-@import "components.buttons";
-@import "components.comments";
-@import "components.messaging";
+@import "components/components.buttons";
+@import "components/components.comments";
+@import "components/components.messaging";
 
-@import "trumps.typography";
-@import "trumps.display";
-@import "trumps.widths";
+@import "trumps/trumps.typography";
+@import "trumps/trumps.display";
+@import "trumps/trumps.widths";
