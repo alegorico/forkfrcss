@@ -1,4 +1,4 @@
-# Arquitectura de triangulación invertida para el mantenimiento de framework de gestión de plantillas css [(referencia)][2]
+# Arquitectura de triangulación invertida para el mantenimiento de framework de gestión de plantillas css [(referencia)][2] [![Build Status](https://travis-ci.org/alegorico/forkfrcss.svg?branch=master)](https://travis-ci.org/alegorico/forkfrcss)
 
 ![modelo del triangulo invertido][1]
 
