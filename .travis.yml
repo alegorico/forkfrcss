@@ -2,6 +2,6 @@ language: ruby
 
 rvm:
     - 2.2
-    - gem install sass
+install: gem install sass
 script:
     - sass main.scss:main.css 
