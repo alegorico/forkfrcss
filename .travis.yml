@@ -1,3 +1,7 @@
-language: bash
+language: ruby
+
+rvm:
+    - 2.2
+    - gem install sass
 script:
-    - bash sass main.scss:main.css 
+    - sass main.scss:main.css 
